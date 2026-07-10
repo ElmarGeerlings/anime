@@ -1,0 +1,1138 @@
+[
+{
+  "model": "anime.anime",
+  "pk": 1,
+  "fields": {
+    "mal_id": 21,
+    "title": "One Piece",
+    "slug": "one-piece",
+    "poster_url": "https://cdn.myanimelist.net/images/anime/1244/138851.jpg",
+    "mal_url": "https://myanimelist.net/anime/21/One_Piece",
+    "status": "ongoing",
+    "curator_tier": "GOAT",
+    "curator_rank": 1,
+    "review": "",
+    "added_at": "2026-07-08T22:58:32.911Z"
+  }
+},
+{
+  "model": "anime.anime",
+  "pk": 2,
+  "fields": {
+    "mal_id": 20,
+    "title": "Naruto",
+    "slug": "naruto",
+    "poster_url": "https://cdn.myanimelist.net/images/anime/1141/142503.jpg",
+    "mal_url": "https://myanimelist.net/anime/20/Naruto",
+    "status": "finished",
+    "curator_tier": "GOAT",
+    "curator_rank": 2,
+    "review": "",
+    "added_at": "2026-07-08T22:58:33.402Z"
+  }
+},
+{
+  "model": "anime.anime",
+  "pk": 3,
+  "fields": {
+    "mal_id": 223,
+    "title": "Dragon Ball",
+    "slug": "dragon-ball",
+    "poster_url": "https://cdn.myanimelist.net/images/anime/1887/92364.jpg",
+    "mal_url": "https://myanimelist.net/anime/223/Dragon_Ball",
+    "status": "finished",
+    "curator_tier": "GOAT",
+    "curator_rank": 3,
+    "review": "",
+    "added_at": "2026-07-09T19:15:34.274Z"
+  }
+},
+{
+  "model": "anime.anime",
+  "pk": 4,
+  "fields": {
+    "mal_id": 31758,
+    "title": "Kizumonogatari III: Reiketsu-hen",
+    "slug": "kizumonogatari-iii-reiketsu-hen",
+    "poster_url": "https://cdn.myanimelist.net/images/anime/1084/112813.jpg",
+    "mal_url": "https://myanimelist.net/anime/31758/Kizumonogatari_III__Reiketsu-hen",
+    "status": "finished",
+    "curator_tier": null,
+    "curator_rank": 0,
+    "review": "",
+    "added_at": "2026-07-09T19:15:34.828Z"
+  }
+},
+{
+  "model": "anime.anime",
+  "pk": 5,
+  "fields": {
+    "mal_id": 37105,
+    "title": "Grand Blue",
+    "slug": "grand-blue",
+    "poster_url": "https://cdn.myanimelist.net/images/anime/1302/94882.jpg",
+    "mal_url": "https://myanimelist.net/anime/37105/Grand_Blue",
+    "status": "ongoing",
+    "curator_tier": "S",
+    "curator_rank": 2,
+    "review": "",
+    "added_at": "2026-07-09T19:15:35.380Z"
+  }
+},
+{
+  "model": "anime.anime",
+  "pk": 6,
+  "fields": {
+    "mal_id": 20057,
+    "title": "Space☆Dandy",
+    "slug": "spacedandy",
+    "poster_url": "https://cdn.myanimelist.net/images/anime/4/56611.jpg",
+    "mal_url": "https://myanimelist.net/anime/20057/Space☆Dandy",
+    "status": "finished",
+    "curator_tier": "S",
+    "curator_rank": 3,
+    "review": "",
+    "added_at": "2026-07-09T19:16:03.114Z"
+  }
+},
+{
+  "model": "anime.anime",
+  "pk": 7,
+  "fields": {
+    "mal_id": 52991,
+    "title": "Sousou no Frieren",
+    "slug": "sousou-no-frieren",
+    "poster_url": "https://cdn.myanimelist.net/images/anime/1015/138006.jpg",
+    "mal_url": "https://myanimelist.net/anime/52991/Sousou_no_Frieren",
+    "status": "ongoing",
+    "curator_tier": "S",
+    "curator_rank": 4,
+    "review": "",
+    "added_at": "2026-07-09T19:16:04.027Z"
+  }
+},
+{
+  "model": "anime.anime",
+  "pk": 8,
+  "fields": {
+    "mal_id": 16498,
+    "title": "Shingeki no Kyojin",
+    "slug": "shingeki-no-kyojin",
+    "poster_url": "https://cdn.myanimelist.net/images/anime/10/47347.jpg",
+    "mal_url": "https://myanimelist.net/anime/16498/Shingeki_no_Kyojin",
+    "status": "finished",
+    "curator_tier": "A",
+    "curator_rank": 1,
+    "review": "",
+    "added_at": "2026-07-09T19:16:04.558Z"
+  }
+},
+{
+  "model": "anime.anime",
+  "pk": 9,
+  "fields": {
+    "mal_id": 1535,
+    "title": "Death Note",
+    "slug": "death-note",
+    "poster_url": "https://cdn.myanimelist.net/images/anime/1079/138100.jpg",
+    "mal_url": "https://myanimelist.net/anime/1535/Death_Note",
+    "status": "finished",
+    "curator_tier": "A",
+    "curator_rank": 2,
+    "review": "",
+    "added_at": "2026-07-09T19:16:05.147Z"
+  }
+},
+{
+  "model": "anime.anime",
+  "pk": 10,
+  "fields": {
+    "mal_id": 9253,
+    "title": "Steins;Gate",
+    "slug": "steinsgate",
+    "poster_url": "https://cdn.myanimelist.net/images/anime/1935/127974.jpg",
+    "mal_url": "https://myanimelist.net/anime/9253/Steins_Gate",
+    "status": "finished",
+    "curator_tier": "A",
+    "curator_rank": 3,
+    "review": "",
+    "added_at": "2026-07-09T19:16:05.752Z"
+  }
+},
+{
+  "model": "anime.anime",
+  "pk": 11,
+  "fields": {
+    "mal_id": 37521,
+    "title": "Vinland Saga",
+    "slug": "vinland-saga",
+    "poster_url": "https://cdn.myanimelist.net/images/anime/1500/103005.jpg",
+    "mal_url": "https://myanimelist.net/anime/37521/Vinland_Saga",
+    "status": "ongoing",
+    "curator_tier": "A",
+    "curator_rank": 4,
+    "review": "",
+    "added_at": "2026-07-09T19:16:06.259Z"
+  }
+},
+{
+  "model": "anime.anime",
+  "pk": 12,
+  "fields": {
+    "mal_id": 30240,
+    "title": "Prison School",
+    "slug": "prison-school",
+    "poster_url": "https://cdn.myanimelist.net/images/anime/1286/112161.jpg",
+    "mal_url": "https://myanimelist.net/anime/30240/Prison_School",
+    "status": "finished",
+    "curator_tier": null,
+    "curator_rank": 0,
+    "review": "",
+    "added_at": "2026-07-09T19:34:44.627Z"
+  }
+},
+{
+  "model": "anime.anime",
+  "pk": 13,
+  "fields": {
+    "mal_id": 52034,
+    "title": "[Oshi no Ko]",
+    "slug": "oshi-no-ko",
+    "poster_url": "https://cdn.myanimelist.net/images/anime/1812/134736.jpg",
+    "mal_url": "https://myanimelist.net/anime/52034/Oshi_no_Ko",
+    "status": "ongoing",
+    "curator_tier": "A",
+    "curator_rank": 5,
+    "review": "",
+    "added_at": "2026-07-09T19:34:44.643Z"
+  }
+},
+{
+  "model": "anime.anime",
+  "pk": 14,
+  "fields": {
+    "mal_id": 11061,
+    "title": "Hunter x Hunter (2011)",
+    "slug": "hunter-x-hunter-2011",
+    "poster_url": "https://cdn.myanimelist.net/images/anime/1337/99013.jpg",
+    "mal_url": "https://myanimelist.net/anime/11061/Hunter_x_Hunter_2011",
+    "status": "finished",
+    "curator_tier": "A",
+    "curator_rank": 6,
+    "review": "",
+    "added_at": "2026-07-09T19:34:44.647Z"
+  }
+},
+{
+  "model": "anime.anime",
+  "pk": 15,
+  "fields": {
+    "mal_id": 57334,
+    "title": "Dandadan",
+    "slug": "dandadan",
+    "poster_url": "https://cdn.myanimelist.net/images/anime/1584/143719.jpg",
+    "mal_url": "https://myanimelist.net/anime/57334/Dandadan",
+    "status": "ongoing",
+    "curator_tier": "B",
+    "curator_rank": 1,
+    "review": "",
+    "added_at": "2026-07-09T19:34:44.650Z"
+  }
+},
+{
+  "model": "anime.anime",
+  "pk": 16,
+  "fields": {
+    "mal_id": 47917,
+    "title": "Bocchi the Rock!",
+    "slug": "bocchi-the-rock",
+    "poster_url": "https://cdn.myanimelist.net/images/anime/1448/127956.jpg",
+    "mal_url": "https://myanimelist.net/anime/47917/Bocchi_the_Rock",
+    "status": "ongoing",
+    "curator_tier": "B",
+    "curator_rank": 2,
+    "review": "",
+    "added_at": "2026-07-09T19:34:44.653Z"
+  }
+},
+{
+  "model": "anime.anime",
+  "pk": 17,
+  "fields": {
+    "mal_id": 31240,
+    "title": "Re:Zero kara Hajimeru Isekai Seikatsu",
+    "slug": "rezero-kara-hajimeru-isekai-seikatsu",
+    "poster_url": "https://cdn.myanimelist.net/images/anime/1522/128039.jpg",
+    "mal_url": "https://myanimelist.net/anime/31240/Re_Zero_kara_Hajimeru_Isekai_Seikatsu",
+    "status": "ongoing",
+    "curator_tier": "B",
+    "curator_rank": 3,
+    "review": "",
+    "added_at": "2026-07-09T19:34:44.656Z"
+  }
+},
+{
+  "model": "anime.anime",
+  "pk": 18,
+  "fields": {
+    "mal_id": 40748,
+    "title": "Jujutsu Kaisen",
+    "slug": "jujutsu-kaisen",
+    "poster_url": "https://cdn.myanimelist.net/images/anime/1171/109222.jpg",
+    "mal_url": "https://myanimelist.net/anime/40748/Jujutsu_Kaisen",
+    "status": "ongoing",
+    "curator_tier": "B",
+    "curator_rank": 4,
+    "review": "",
+    "added_at": "2026-07-09T19:34:44.658Z"
+  }
+},
+{
+  "model": "anime.anime",
+  "pk": 19,
+  "fields": {
+    "mal_id": 44511,
+    "title": "Chainsaw Man",
+    "slug": "chainsaw-man",
+    "poster_url": "https://cdn.myanimelist.net/images/anime/1806/126216.jpg",
+    "mal_url": "https://myanimelist.net/anime/44511/Chainsaw_Man",
+    "status": "ongoing",
+    "curator_tier": "B",
+    "curator_rank": 5,
+    "review": "",
+    "added_at": "2026-07-09T19:34:44.661Z"
+  }
+},
+{
+  "model": "anime.anime",
+  "pk": 20,
+  "fields": {
+    "mal_id": 34599,
+    "title": "Made in Abyss",
+    "slug": "made-in-abyss",
+    "poster_url": "https://cdn.myanimelist.net/images/anime/6/86733.jpg",
+    "mal_url": "https://myanimelist.net/anime/34599/Made_in_Abyss",
+    "status": "ongoing",
+    "curator_tier": "B",
+    "curator_rank": 6,
+    "review": "",
+    "added_at": "2026-07-09T19:34:44.665Z"
+  }
+},
+{
+  "model": "anime.anime",
+  "pk": 21,
+  "fields": {
+    "mal_id": 37171,
+    "title": "Asobi Asobase",
+    "slug": "asobi-asobase",
+    "poster_url": "https://cdn.myanimelist.net/images/anime/1139/95077.jpg",
+    "mal_url": "https://myanimelist.net/anime/37171/Asobi_Asobase",
+    "status": "finished",
+    "curator_tier": "C",
+    "curator_rank": 1,
+    "review": "",
+    "added_at": "2026-07-09T19:34:46.248Z"
+  }
+},
+{
+  "model": "anime.anime",
+  "pk": 22,
+  "fields": {
+    "mal_id": 457,
+    "title": "Mushishi",
+    "slug": "mushishi",
+    "poster_url": "https://cdn.myanimelist.net/images/anime/2/73862.jpg",
+    "mal_url": "https://myanimelist.net/anime/457/Mushishi",
+    "status": "finished",
+    "curator_tier": "C",
+    "curator_rank": 2,
+    "review": "",
+    "added_at": "2026-07-09T19:34:46.252Z"
+  }
+},
+{
+  "model": "anime.anime",
+  "pk": 23,
+  "fields": {
+    "mal_id": 14719,
+    "title": "JoJo no Kimyou na Bouken (TV)",
+    "slug": "jojo-no-kimyou-na-bouken-tv",
+    "poster_url": "https://cdn.myanimelist.net/images/anime/3/40409.jpg",
+    "mal_url": "https://myanimelist.net/anime/14719/JoJo_no_Kimyou_na_Bouken_TV",
+    "status": "ongoing",
+    "curator_tier": "C",
+    "curator_rank": 3,
+    "review": "",
+    "added_at": "2026-07-09T19:34:47.479Z"
+  }
+},
+{
+  "model": "anime.anime",
+  "pk": 24,
+  "fields": {
+    "mal_id": 49053,
+    "title": "Given: Uragawa no Sonzai",
+    "slug": "given-uragawa-no-sonzai",
+    "poster_url": "https://cdn.myanimelist.net/images/anime/1031/115154.jpg",
+    "mal_url": "https://myanimelist.net/anime/49053/Given__Uragawa_no_Sonzai",
+    "status": "finished",
+    "curator_tier": null,
+    "curator_rank": 0,
+    "review": "",
+    "added_at": "2026-07-09T19:34:48.684Z"
+  }
+},
+{
+  "model": "anime.anime",
+  "pk": 25,
+  "fields": {
+    "mal_id": 59192,
+    "title": "Kimetsu no Yaiba Movie 1: Mugenjou-hen - Akaza Sairai",
+    "slug": "kimetsu-no-yaiba-movie-1-mugenjou-hen-akaza-sairai",
+    "poster_url": "https://cdn.myanimelist.net/images/anime/1681/148216.jpg",
+    "mal_url": "https://myanimelist.net/anime/59192/Kimetsu_no_Yaiba_Movie_1__Mugenjou-hen_-_Akaza_Sairai",
+    "status": "finished",
+    "curator_tier": null,
+    "curator_rank": 0,
+    "review": "",
+    "added_at": "2026-07-09T19:34:50.010Z"
+  }
+},
+{
+  "model": "anime.anime",
+  "pk": 26,
+  "fields": {
+    "mal_id": 1,
+    "title": "Cowboy Bebop",
+    "slug": "cowboy-bebop",
+    "poster_url": "https://cdn.myanimelist.net/images/anime/4/19644.jpg",
+    "mal_url": "https://myanimelist.net/anime/1/Cowboy_Bebop",
+    "status": "finished",
+    "curator_tier": "C",
+    "curator_rank": 6,
+    "review": "",
+    "added_at": "2026-07-09T19:34:50.013Z"
+  }
+},
+{
+  "model": "anime.anime",
+  "pk": 27,
+  "fields": {
+    "mal_id": 52299,
+    "title": "Ore dake Level Up na Ken",
+    "slug": "ore-dake-level-up-na-ken",
+    "poster_url": "https://cdn.myanimelist.net/images/anime/1801/142390.jpg",
+    "mal_url": "https://myanimelist.net/anime/52299/Ore_dake_Level_Up_na_Ken",
+    "status": "ongoing",
+    "curator_tier": "C",
+    "curator_rank": 7,
+    "review": "",
+    "added_at": "2026-07-09T19:34:50.017Z"
+  }
+},
+{
+  "model": "anime.anime",
+  "pk": 28,
+  "fields": {
+    "mal_id": 245,
+    "title": "Great Teacher Onizuka",
+    "slug": "great-teacher-onizuka",
+    "poster_url": "https://cdn.myanimelist.net/images/anime/13/11460.jpg",
+    "mal_url": "https://myanimelist.net/anime/245/Great_Teacher_Onizuka",
+    "status": "finished",
+    "curator_tier": "C",
+    "curator_rank": 8,
+    "review": "",
+    "added_at": "2026-07-09T19:34:51.374Z"
+  }
+},
+{
+  "model": "anime.anime",
+  "pk": 29,
+  "fields": {
+    "mal_id": 1575,
+    "title": "Code Geass: Hangyaku no Lelouch",
+    "slug": "code-geass-hangyaku-no-lelouch",
+    "poster_url": "https://cdn.myanimelist.net/images/anime/1032/135088.jpg",
+    "mal_url": "https://myanimelist.net/anime/1575/Code_Geass__Hangyaku_no_Lelouch",
+    "status": "finished",
+    "curator_tier": "C",
+    "curator_rank": 9,
+    "review": "",
+    "added_at": "2026-07-09T19:34:51.378Z"
+  }
+},
+{
+  "model": "anime.anime",
+  "pk": 30,
+  "fields": {
+    "mal_id": 5114,
+    "title": "Fullmetal Alchemist: Brotherhood",
+    "slug": "fullmetal-alchemist-brotherhood",
+    "poster_url": "https://cdn.myanimelist.net/images/anime/1208/94745.jpg",
+    "mal_url": "https://myanimelist.net/anime/5114/Fullmetal_Alchemist__Brotherhood",
+    "status": "finished",
+    "curator_tier": "D",
+    "curator_rank": 1,
+    "review": "",
+    "added_at": "2026-07-09T19:34:52.584Z"
+  }
+},
+{
+  "model": "anime.anime",
+  "pk": 31,
+  "fields": {
+    "mal_id": 30276,
+    "title": "One Punch Man",
+    "slug": "one-punch-man",
+    "poster_url": "https://cdn.myanimelist.net/images/anime/12/76049.jpg",
+    "mal_url": "https://myanimelist.net/anime/30276/One_Punch_Man",
+    "status": "ongoing",
+    "curator_tier": "D",
+    "curator_rank": 3,
+    "review": "",
+    "added_at": "2026-07-09T19:39:05.499Z"
+  }
+},
+{
+  "model": "anime.anime",
+  "pk": 32,
+  "fields": {
+    "mal_id": 37969,
+    "title": "Youkai Watch Movie 5: Forever Friends",
+    "slug": "youkai-watch-movie-5-forever-friends",
+    "poster_url": "https://cdn.myanimelist.net/images/anime/1870/100547.jpg",
+    "mal_url": "https://myanimelist.net/anime/37969/Youkai_Watch_Movie_5__Forever_Friends",
+    "status": "finished",
+    "curator_tier": null,
+    "curator_rank": 0,
+    "review": "",
+    "added_at": "2026-07-09T19:39:07.339Z"
+  }
+},
+{
+  "model": "anime.anime",
+  "pk": 33,
+  "fields": {
+    "mal_id": 12531,
+    "title": "Sakamichi no Apollon",
+    "slug": "sakamichi-no-apollon",
+    "poster_url": "https://cdn.myanimelist.net/images/anime/1604/98654.jpg",
+    "mal_url": "https://myanimelist.net/anime/12531/Sakamichi_no_Apollon",
+    "status": "finished",
+    "curator_tier": "D",
+    "curator_rank": 5,
+    "review": "",
+    "added_at": "2026-07-09T19:39:09.022Z"
+  }
+},
+{
+  "model": "anime.anime",
+  "pk": 34,
+  "fields": {
+    "mal_id": 49596,
+    "title": "Blue Lock",
+    "slug": "blue-lock",
+    "poster_url": "https://cdn.myanimelist.net/images/anime/1258/126929.jpg",
+    "mal_url": "https://myanimelist.net/anime/49596/Blue_Lock",
+    "status": "ongoing",
+    "curator_tier": "D",
+    "curator_rank": 6,
+    "review": "",
+    "added_at": "2026-07-09T19:39:09.026Z"
+  }
+},
+{
+  "model": "anime.anime",
+  "pk": 35,
+  "fields": {
+    "mal_id": 59636,
+    "title": "Uma Musume: Cinderella Gray",
+    "slug": "uma-musume-cinderella-gray",
+    "poster_url": "https://cdn.myanimelist.net/images/anime/1626/148097.jpg",
+    "mal_url": "https://myanimelist.net/anime/59636/Uma_Musume__Cinderella_Gray",
+    "status": "ongoing",
+    "curator_tier": "D",
+    "curator_rank": 7,
+    "review": "",
+    "added_at": "2026-07-09T19:39:09.029Z"
+  }
+},
+{
+  "model": "anime.anime",
+  "pk": 36,
+  "fields": {
+    "mal_id": 185,
+    "title": "Initial D First Stage",
+    "slug": "initial-d-first-stage",
+    "poster_url": "https://cdn.myanimelist.net/images/anime/1384/127972.jpg",
+    "mal_url": "https://myanimelist.net/anime/185/Initial_D_First_Stage",
+    "status": "finished",
+    "curator_tier": "D",
+    "curator_rank": 8,
+    "review": "",
+    "added_at": "2026-07-09T19:39:09.031Z"
+  }
+},
+{
+  "model": "anime.anime",
+  "pk": 37,
+  "fields": {
+    "mal_id": 19,
+    "title": "Monster",
+    "slug": "monster",
+    "poster_url": "https://cdn.myanimelist.net/images/anime/10/18793.jpg",
+    "mal_url": "https://myanimelist.net/anime/19/Monster",
+    "status": "finished",
+    "curator_tier": "D",
+    "curator_rank": 9,
+    "review": "",
+    "added_at": "2026-07-09T19:39:09.037Z"
+  }
+},
+{
+  "model": "anime.anime",
+  "pk": 38,
+  "fields": {
+    "mal_id": 24833,
+    "title": "Ansatsu Kyoushitsu",
+    "slug": "ansatsu-kyoushitsu",
+    "poster_url": "https://cdn.myanimelist.net/images/anime/5/75639.jpg",
+    "mal_url": "https://myanimelist.net/anime/24833/Ansatsu_Kyoushitsu",
+    "status": "finished",
+    "curator_tier": "D",
+    "curator_rank": 10,
+    "review": "",
+    "added_at": "2026-07-09T19:39:10.839Z"
+  }
+},
+{
+  "model": "anime.anime",
+  "pk": 39,
+  "fields": {
+    "mal_id": 11843,
+    "title": "Danshi Koukousei no Nichijou",
+    "slug": "danshi-koukousei-no-nichijou",
+    "poster_url": "https://cdn.myanimelist.net/images/anime/3/33257.jpg",
+    "mal_url": "https://myanimelist.net/anime/11843/Danshi_Koukousei_no_Nichijou",
+    "status": "finished",
+    "curator_tier": "D",
+    "curator_rank": 11,
+    "review": "",
+    "added_at": "2026-07-09T19:39:12.598Z"
+  }
+},
+{
+  "model": "anime.anime",
+  "pk": 40,
+  "fields": {
+    "mal_id": 48569,
+    "title": "86 Part 2",
+    "slug": "86-part-2",
+    "poster_url": "https://cdn.myanimelist.net/images/anime/1321/117508.jpg",
+    "mal_url": "https://myanimelist.net/anime/48569/86_Part_2",
+    "status": "finished",
+    "curator_tier": null,
+    "curator_rank": 0,
+    "review": "",
+    "added_at": "2026-07-09T19:39:14.442Z"
+  }
+},
+{
+  "model": "anime.anime",
+  "pk": 41,
+  "fields": {
+    "mal_id": 2594,
+    "title": "Piano no Mori",
+    "slug": "piano-no-mori",
+    "poster_url": "https://cdn.myanimelist.net/images/anime/9/45012.jpg",
+    "mal_url": "https://myanimelist.net/anime/2594/Piano_no_Mori",
+    "status": "finished",
+    "curator_tier": null,
+    "curator_rank": 0,
+    "review": "",
+    "added_at": "2026-07-09T19:39:16.133Z"
+  }
+},
+{
+  "model": "anime.anime",
+  "pk": 42,
+  "fields": {
+    "mal_id": 42310,
+    "title": "Cyberpunk: Edgerunners",
+    "slug": "cyberpunk-edgerunners",
+    "poster_url": "https://cdn.myanimelist.net/images/anime/1818/126435.jpg",
+    "mal_url": "https://myanimelist.net/anime/42310/Cyberpunk__Edgerunners",
+    "status": "ongoing",
+    "curator_tier": "E",
+    "curator_rank": 1,
+    "review": "",
+    "added_at": "2026-07-09T19:39:17.786Z"
+  }
+},
+{
+  "model": "anime.anime",
+  "pk": 43,
+  "fields": {
+    "mal_id": 2001,
+    "title": "Tengen Toppa Gurren Lagann",
+    "slug": "tengen-toppa-gurren-lagann",
+    "poster_url": "https://cdn.myanimelist.net/images/anime/4/5123.jpg",
+    "mal_url": "https://myanimelist.net/anime/2001/Tengen_Toppa_Gurren_Lagann",
+    "status": "finished",
+    "curator_tier": "E",
+    "curator_rank": 2,
+    "review": "",
+    "added_at": "2026-07-09T19:39:19.617Z"
+  }
+},
+{
+  "model": "anime.anime",
+  "pk": 44,
+  "fields": {
+    "mal_id": 22319,
+    "title": "Tokyo Ghoul",
+    "slug": "tokyo-ghoul",
+    "poster_url": "https://cdn.myanimelist.net/images/anime/1498/134443.jpg",
+    "mal_url": "https://myanimelist.net/anime/22319/Tokyo_Ghoul",
+    "status": "finished",
+    "curator_tier": "E",
+    "curator_rank": 3,
+    "review": "",
+    "added_at": "2026-07-09T19:39:19.622Z"
+  }
+},
+{
+  "model": "anime.anime",
+  "pk": 45,
+  "fields": {
+    "mal_id": 6,
+    "title": "Trigun",
+    "slug": "trigun",
+    "poster_url": "https://cdn.myanimelist.net/images/anime/1130/120002.jpg",
+    "mal_url": "https://myanimelist.net/anime/6/Trigun",
+    "status": "finished",
+    "curator_tier": null,
+    "curator_rank": 0,
+    "review": "",
+    "added_at": "2026-07-09T19:39:21.339Z"
+  }
+},
+{
+  "model": "anime.anime",
+  "pk": 46,
+  "fields": {
+    "mal_id": 10620,
+    "title": "Mirai Nikki (TV)",
+    "slug": "mirai-nikki-tv",
+    "poster_url": "https://cdn.myanimelist.net/images/anime/13/33465.jpg",
+    "mal_url": "https://myanimelist.net/anime/10620/Mirai_Nikki_TV",
+    "status": "finished",
+    "curator_tier": "E",
+    "curator_rank": 5,
+    "review": "",
+    "added_at": "2026-07-09T19:39:23.215Z"
+  }
+},
+{
+  "model": "anime.anime",
+  "pk": 47,
+  "fields": {
+    "mal_id": 205,
+    "title": "Samurai Champloo",
+    "slug": "samurai-champloo",
+    "poster_url": "https://cdn.myanimelist.net/images/anime/1370/135212.jpg",
+    "mal_url": "https://myanimelist.net/anime/205/Samurai_Champloo",
+    "status": "finished",
+    "curator_tier": "E",
+    "curator_rank": 6,
+    "review": "",
+    "added_at": "2026-07-09T19:39:24.933Z"
+  }
+},
+{
+  "model": "anime.anime",
+  "pk": 48,
+  "fields": {
+    "mal_id": 28223,
+    "title": "Death Parade",
+    "slug": "death-parade",
+    "poster_url": "https://cdn.myanimelist.net/images/anime/5/71553.jpg",
+    "mal_url": "https://myanimelist.net/anime/28223/Death_Parade",
+    "status": "finished",
+    "curator_tier": "E",
+    "curator_rank": 7,
+    "review": "",
+    "added_at": "2026-07-09T19:39:26.635Z"
+  }
+},
+{
+  "model": "anime.anime",
+  "pk": 49,
+  "fields": {
+    "mal_id": 58392,
+    "title": "Hanbun Otona",
+    "slug": "hanbun-otona",
+    "poster_url": "https://cdn.myanimelist.net/images/anime/1649/141938.jpg",
+    "mal_url": "https://myanimelist.net/anime/58392/Hanbun_Otona",
+    "status": "finished",
+    "curator_tier": null,
+    "curator_rank": 0,
+    "review": "",
+    "added_at": "2026-07-09T19:39:28.298Z"
+  }
+},
+{
+  "model": "anime.anime",
+  "pk": 50,
+  "fields": {
+    "mal_id": 13125,
+    "title": "Shinsekai yori",
+    "slug": "shinsekai-yori",
+    "poster_url": "https://cdn.myanimelist.net/images/anime/1549/136389.jpg",
+    "mal_url": "https://myanimelist.net/anime/13125/Shinsekai_yori",
+    "status": "finished",
+    "curator_tier": "F",
+    "curator_rank": 1,
+    "review": "",
+    "added_at": "2026-07-09T19:39:28.937Z"
+  }
+},
+{
+  "model": "anime.anime",
+  "pk": 51,
+  "fields": {
+    "mal_id": 35737,
+    "title": "Pluto",
+    "slug": "pluto",
+    "poster_url": "https://cdn.myanimelist.net/images/anime/1021/138568.jpg",
+    "mal_url": "https://myanimelist.net/anime/35737/Pluto",
+    "status": "finished",
+    "curator_tier": "F",
+    "curator_rank": 2,
+    "review": "",
+    "added_at": "2026-07-09T19:39:30.771Z"
+  }
+},
+{
+  "model": "anime.anime",
+  "pk": 52,
+  "fields": {
+    "mal_id": 30,
+    "title": "Shinseiki Evangelion",
+    "slug": "shinseiki-evangelion",
+    "poster_url": "https://cdn.myanimelist.net/images/anime/1314/108941.jpg",
+    "mal_url": "https://myanimelist.net/anime/30/Shinseiki_Evangelion",
+    "status": "finished",
+    "curator_tier": "F",
+    "curator_rank": 3,
+    "review": "",
+    "added_at": "2026-07-09T19:39:30.775Z"
+  }
+},
+{
+  "model": "anime.anime",
+  "pk": 53,
+  "fields": {
+    "mal_id": 889,
+    "title": "Black Lagoon",
+    "slug": "black-lagoon",
+    "poster_url": "https://cdn.myanimelist.net/images/anime/1906/121592.jpg",
+    "mal_url": "https://myanimelist.net/anime/889/Black_Lagoon",
+    "status": "finished",
+    "curator_tier": "F",
+    "curator_rank": 4,
+    "review": "",
+    "added_at": "2026-07-09T19:39:30.778Z"
+  }
+},
+{
+  "model": "anime.anime",
+  "pk": 54,
+  "fields": {
+    "mal_id": 270,
+    "title": "Hellsing",
+    "slug": "hellsing",
+    "poster_url": "https://cdn.myanimelist.net/images/anime/10/19956.jpg",
+    "mal_url": "https://myanimelist.net/anime/270/Hellsing",
+    "status": "finished",
+    "curator_tier": null,
+    "curator_rank": 0,
+    "review": "",
+    "added_at": "2026-07-09T19:39:32.514Z"
+  }
+},
+{
+  "model": "anime.anime",
+  "pk": 55,
+  "fields": {
+    "mal_id": 34443,
+    "title": "Baki",
+    "slug": "baki",
+    "poster_url": "https://cdn.myanimelist.net/images/anime/1979/93135.jpg",
+    "mal_url": "https://myanimelist.net/anime/34443/Baki",
+    "status": "finished",
+    "curator_tier": "DNF",
+    "curator_rank": 1,
+    "review": "",
+    "added_at": "2026-07-09T19:39:34.230Z"
+  }
+},
+{
+  "model": "anime.anime",
+  "pk": 56,
+  "fields": {
+    "mal_id": 10165,
+    "title": "Nichijou",
+    "slug": "nichijou",
+    "poster_url": "https://cdn.myanimelist.net/images/anime/3/75617.jpg",
+    "mal_url": "https://myanimelist.net/anime/10165/Nichijou",
+    "status": "finished",
+    "curator_tier": "DNF",
+    "curator_rank": 2,
+    "review": "",
+    "added_at": "2026-07-09T19:39:34.235Z"
+  }
+},
+{
+  "model": "anime.anime",
+  "pk": 57,
+  "fields": {
+    "mal_id": 6746,
+    "title": "Durarara!!",
+    "slug": "durarara",
+    "poster_url": "https://cdn.myanimelist.net/images/anime/10/71772.jpg",
+    "mal_url": "https://myanimelist.net/anime/6746/Durarara",
+    "status": "finished",
+    "curator_tier": "DNF",
+    "curator_rank": 3,
+    "review": "",
+    "added_at": "2026-07-09T19:39:35.928Z"
+  }
+},
+{
+  "model": "anime.anime",
+  "pk": 58,
+  "fields": {
+    "mal_id": 459,
+    "title": "One Piece Movie 01",
+    "slug": "one-piece-movie-01",
+    "poster_url": "https://cdn.myanimelist.net/images/anime/1770/97704.jpg",
+    "mal_url": "https://myanimelist.net/anime/459/One_Piece_Movie_01",
+    "status": "finished",
+    "curator_tier": null,
+    "curator_rank": 0,
+    "review": "",
+    "added_at": "2026-07-09T19:44:33.776Z"
+  }
+},
+{
+  "model": "anime.anime",
+  "pk": 59,
+  "fields": {
+    "mal_id": 32182,
+    "title": "Mob Psycho 100",
+    "slug": "mob-psycho-100",
+    "poster_url": "https://cdn.myanimelist.net/images/anime/8/80356.jpg",
+    "mal_url": "https://myanimelist.net/anime/32182/Mob_Psycho_100",
+    "status": "finished",
+    "curator_tier": "S",
+    "curator_rank": 1,
+    "review": "",
+    "added_at": "2026-07-09T19:44:39.519Z"
+  }
+},
+{
+  "model": "anime.anime",
+  "pk": 60,
+  "fields": {
+    "mal_id": 46102,
+    "title": "Odd Taxi",
+    "slug": "odd-taxi",
+    "poster_url": "https://cdn.myanimelist.net/images/anime/1981/113348.jpg",
+    "mal_url": "https://myanimelist.net/anime/46102/Odd_Taxi",
+    "status": "finished",
+    "curator_tier": "C",
+    "curator_rank": 4,
+    "review": "",
+    "added_at": "2026-07-09T19:45:16.446Z"
+  }
+},
+{
+  "model": "anime.anime",
+  "pk": 61,
+  "fields": {
+    "mal_id": 59062,
+    "title": "Gachiakuta",
+    "slug": "gachiakuta",
+    "poster_url": "https://cdn.myanimelist.net/images/anime/1682/150432.jpg",
+    "mal_url": "https://myanimelist.net/anime/59062/Gachiakuta",
+    "status": "ongoing",
+    "curator_tier": "C",
+    "curator_rank": 5,
+    "review": "",
+    "added_at": "2026-07-09T19:45:18.181Z"
+  }
+},
+{
+  "model": "anime.anime",
+  "pk": 62,
+  "fields": {
+    "mal_id": 52215,
+    "title": "Chi. Chikyuu no Undou ni Tsuite",
+    "slug": "chi-chikyuu-no-undou-ni-tsuite",
+    "poster_url": "https://cdn.myanimelist.net/images/anime/1749/145922.jpg",
+    "mal_url": "https://myanimelist.net/anime/52215/Chi_Chikyuu_no_Undou_ni_Tsuite",
+    "status": "finished",
+    "curator_tier": "D",
+    "curator_rank": 2,
+    "review": "",
+    "added_at": "2026-07-09T19:45:30.305Z"
+  }
+},
+{
+  "model": "anime.anime",
+  "pk": 63,
+  "fields": {
+    "mal_id": 39026,
+    "title": "Dumbbell Nan Kilo Moteru?",
+    "slug": "dumbbell-nan-kilo-moteru",
+    "poster_url": "https://cdn.myanimelist.net/images/anime/1385/101060.jpg",
+    "mal_url": "https://myanimelist.net/anime/39026/Dumbbell_Nan_Kilo_Moteru",
+    "status": "finished",
+    "curator_tier": "D",
+    "curator_rank": 4,
+    "review": "",
+    "added_at": "2026-07-09T19:45:34.000Z"
+  }
+},
+{
+  "model": "anime.anime",
+  "pk": 64,
+  "fields": {
+    "mal_id": 61629,
+    "title": "Monster (Music, 2025)",
+    "slug": "monster-music-2025",
+    "poster_url": "https://cdn.myanimelist.net/images/anime/1648/152231.jpg",
+    "mal_url": "https://myanimelist.net/anime/61629/Monster_Music_2025",
+    "status": "finished",
+    "curator_tier": null,
+    "curator_rank": 0,
+    "review": "",
+    "added_at": "2026-07-09T19:45:43.472Z"
+  }
+},
+{
+  "model": "anime.anime",
+  "pk": 65,
+  "fields": {
+    "mal_id": 52588,
+    "title": "Kaijuu 8-gou",
+    "slug": "kaijuu-8-gou",
+    "poster_url": "https://cdn.myanimelist.net/images/anime/1370/140362.jpg",
+    "mal_url": "https://myanimelist.net/anime/52588/Kaijuu_8-gou",
+    "status": "ongoing",
+    "curator_tier": "D",
+    "curator_rank": 12,
+    "review": "",
+    "added_at": "2026-07-09T19:45:49.123Z"
+  }
+},
+{
+  "model": "anime.anime",
+  "pk": 66,
+  "fields": {
+    "mal_id": 2251,
+    "title": "Baccano!",
+    "slug": "baccano",
+    "poster_url": "https://cdn.myanimelist.net/images/anime/3/14547.jpg",
+    "mal_url": "https://myanimelist.net/anime/2251/Baccano",
+    "status": "finished",
+    "curator_tier": "D",
+    "curator_rank": 13,
+    "review": "",
+    "added_at": "2026-07-09T19:45:50.935Z"
+  }
+},
+{
+  "model": "anime.anime",
+  "pk": 67,
+  "fields": {
+    "mal_id": 56038,
+    "title": "Lazarus",
+    "slug": "lazarus",
+    "poster_url": "https://cdn.myanimelist.net/images/anime/1098/150300.jpg",
+    "mal_url": "https://myanimelist.net/anime/56038/Lazarus",
+    "status": "finished",
+    "curator_tier": "E",
+    "curator_rank": 8,
+    "review": "",
+    "added_at": "2026-07-09T19:46:07.561Z"
+  }
+},
+{
+  "model": "anime.anime",
+  "pk": 68,
+  "fields": {
+    "mal_id": 35821,
+    "title": "Chio-chan no Tsuugakuro",
+    "slug": "chio-chan-no-tsuugakuro",
+    "poster_url": "https://cdn.myanimelist.net/images/anime/1073/95042.jpg",
+    "mal_url": "https://myanimelist.net/anime/35821/Chio-chan_no_Tsuugakuro",
+    "status": "finished",
+    "curator_tier": "E",
+    "curator_rank": 9,
+    "review": "",
+    "added_at": "2026-07-09T19:46:09.726Z"
+  }
+},
+{
+  "model": "anime.anime",
+  "pk": 69,
+  "fields": {
+    "mal_id": 35330,
+    "title": "Poputepipikku",
+    "slug": "poputepipikku",
+    "poster_url": "https://cdn.myanimelist.net/images/anime/3/88816.jpg",
+    "mal_url": "https://myanimelist.net/anime/35330/Poputepipikku",
+    "status": "finished",
+    "curator_tier": "DNF",
+    "curator_rank": 4,
+    "review": "",
+    "added_at": "2026-07-09T19:46:27.835Z"
+  }
+},
+{
+  "model": "anime.anime",
+  "pk": 70,
+  "fields": {
+    "mal_id": 52093,
+    "title": "Trigun Stampede",
+    "slug": "trigun-stampede",
+    "poster_url": "https://cdn.myanimelist.net/images/anime/1426/129194.jpg",
+    "mal_url": "https://myanimelist.net/anime/52093/Trigun_Stampede",
+    "status": "finished",
+    "curator_tier": "E",
+    "curator_rank": 4,
+    "review": "",
+    "added_at": "2026-07-09T19:54:45.370Z"
+  }
+},
+{
+  "model": "anime.anime",
+  "pk": 71,
+  "fields": {
+    "mal_id": 777,
+    "title": "Hellsing Ultimate",
+    "slug": "hellsing-ultimate",
+    "poster_url": "https://cdn.myanimelist.net/images/anime/1012/143965.jpg",
+    "mal_url": "https://myanimelist.net/anime/777/Hellsing_Ultimate",
+    "status": "finished",
+    "curator_tier": "F",
+    "curator_rank": 5,
+    "review": "",
+    "added_at": "2026-07-09T19:54:47.237Z"
+  }
+}
+]
