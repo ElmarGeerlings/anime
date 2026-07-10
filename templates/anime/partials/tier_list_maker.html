@@ -1,0 +1,30 @@
+{% load static %}
+<div class="tier-maker" id="tier-maker" data-save-url="{% url 'save_tierlist' %}">
+    <input type="hidden" name="csrfmiddlewaretoken" value="{{ csrf_token }}">
+    <input type="hidden" name="device_id" value="">
+    <p class="tier-maker-hint">Drag posters into tiers. Drag back to Unrated to remove your rating.</p>
+    <p class="tier-maker-status" id="tier-maker-status" aria-live="polite"></p>
+
+    <div class="tier-list tier-list--maker">
+        {% for tier, animes in personal_by_tier %}
+            <div class="tier-row tier-row--{{ tier|lower }}">
+                <div class="tier-label">{{ tier }}</div>
+                <div class="tier-items tier-maker-drop" data-tier="{{ tier }}">
+                    {% for anime in animes %}
+                        {% include "anime/partials/tier_maker_card.html" with anime=anime %}
+                    {% endfor %}
+                </div>
+            </div>
+        {% endfor %}
+    </div>
+
+    <h3 class="tier-maker-pool-heading">Unrated</h3>
+    <div class="tier-maker-pool tier-maker-drop" data-tier="">
+        {% for anime in unrated_pool %}
+            {% include "anime/partials/tier_maker_card.html" with anime=anime %}
+        {% endfor %}
+    </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/sortablejs@1.15.2/Sortable.min.js"></script>
+<script src="{% static 'anime/anime-tier-maker.js' %}"></script>

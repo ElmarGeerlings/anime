@@ -1,0 +1,53 @@
+{% extends "anime/base_anime.html" %}
+
+{% block title %}{{ anime.title }} — Anime Tier List{% endblock %}
+
+{% block content %}
+<article class="anime-detail">
+    <div class="anime-detail-poster">
+        {% if anime.poster_url %}
+            <img src="{{ anime.poster_url }}" alt="{{ anime.title }}">
+        {% endif %}
+    </div>
+    <div class="anime-detail-info">
+        <h2>{{ anime.title }}</h2>
+        <p class="anime-detail-meta">
+            <span class="anime-badge anime-badge--{{ anime.status }}">{{ anime.get_status_display }}</span>
+            {% if anime.curator_tier %}
+                <span class="anime-detail-tier">Elmar's rating: {{ anime.curator_tier }}</span>
+            {% endif %}
+        </p>
+        {% if anime.get_mal_link %}
+            <p><a href="{{ anime.get_mal_link }}" target="_blank" rel="noopener">MyAnimeList</a></p>
+        {% endif %}
+        {% if community_stats %}
+            <p class="anime-detail-community">
+                Visitor average: {{ community_stats.community_tier }}
+                ({{ community_stats.rating_count }} rating{{ community_stats.rating_count|pluralize }})
+            </p>
+        {% endif %}
+        {% if anime.review %}
+            <div class="anime-detail-review">{{ anime.review|linebreaks }}</div>
+        {% endif %}
+
+        <section class="anime-rating">
+            <h3>Your rating</h3>
+            <form class="anime-rating-form" method="post" action="{% url 'rate' %}">
+                {% csrf_token %}
+                <input type="hidden" name="device_id" value="">
+                <input type="hidden" name="anime_id" value="{{ anime.pk }}">
+                <div class="anime-rating-tiers">
+                    {% for tier, label in rating_tiers %}
+                        <button
+                            type="submit"
+                            name="tier"
+                            value="{{ tier }}"
+                            class="anime-rating-tier anime-rating-tier--{{ tier|lower }}{% if user_rating == tier %} anime-rating-tier--selected{% endif %}"
+                        >{{ tier }}</button>
+                    {% endfor %}
+                </div>
+            </form>
+        </section>
+    </div>
+</article>
+{% endblock %}

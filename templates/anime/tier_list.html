@@ -1,0 +1,30 @@
+{% extends "anime/base_anime.html" %}
+
+{% block content %}
+
+<section class="tier-list-section">
+    <h2 class="tier-list-heading">Elmar's tier list</h2>
+    <div class="tier-list-intro">
+        <p>Tiering is based on how much I enjoyed the anime, rather than how good I think it is. Anime that are rated lower are thus not necessarily bad, I just had less strong emotions tied to it. In fact, I think almost all of these anime are quite good.</p>
+        <p>I tried to rate the anime based on my feelings at the time I watched it. There's probably some shows that I would rate rather differently if I would have (re-)watched them now.</p>
+        <p>GOAT tier is a bit special, since I find it hard to compare these iconic anime with hundreds of episodes to all the others that have way less. In that sense they are in a tier of itself.</p>
+        <p>The anime marked with a cyan border are still ongoing.</p>
+        <p>You are invited to rate these anime yourself and contribute to the Visitor's tier list!</p>
+    </div>
+    {% include "anime/partials/tier_list.html" with tier_rows=curator_by_tier %}
+</section>
+
+<section class="tier-list-section">
+    <h2 class="tier-list-heading">Visitor's tier list</h2>
+    {% if has_community_ratings %}
+        {% include "anime/partials/tier_list.html" with tier_rows=community_by_tier %}
+    {% else %}
+        <p class="tier-list-empty">No community ratings yet.</p>
+    {% endif %}
+</section>
+
+<section class="tier-list-section">
+    <h2 class="tier-list-heading">Your tier list</h2>
+    {% include "anime/partials/tier_list_maker.html" %}
+</section>
+{% endblock %}

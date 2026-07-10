@@ -1,0 +1,28 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{% block title %}Anime Tier List{% endblock %}</title>
+    <link rel="stylesheet" href="{% static 'anime/anime.css' %}">
+</head>
+<body>
+    <div class="anime-page">
+        <header class="anime-header">
+            <h1 class="anime-site-title"><a href="{% url 'tier_list' %}">Anime Tier List</a></h1>
+        </header>
+
+        <main class="anime-main">
+            {% block content %}{% endblock %}
+        </main>
+
+        <footer class="anime-footer">
+            <a href="/">← Back to Gainz</a>
+        </footer>
+    </div>
+    {% load static %}
+    <script src="{% static 'anime/anime.js' %}"></script>
+    {% block scripts %}{% endblock %}
+</body>
+</html>

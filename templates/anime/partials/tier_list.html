@@ -1,0 +1,20 @@
+<div class="tier-list">
+    {% for tier, animes in tier_rows %}
+        <div class="tier-row tier-row--{{ tier|lower }}">
+            <div class="tier-label">
+                {{ tier }}
+            </div>
+            <div class="tier-items">
+                {% for anime in animes %}
+                    <a href="{% url 'anime_detail' anime.slug %}" class="tier-item{% if anime.is_ongoing %} tier-item--ongoing{% endif %}" title="{{ anime.title }}">
+                        {% if anime.poster_url %}
+                            <img src="{{ anime.poster_url }}" alt="{{ anime.title }}">
+                        {% else %}
+                            <span class="tier-item-fallback">{{ anime.title }}</span>
+                        {% endif %}
+                    </a>
+                {% endfor %}
+            </div>
+        </div>
+    {% endfor %}
+</div>
