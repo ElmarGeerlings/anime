@@ -28,6 +28,15 @@ CSRF_COOKIE_SECURE = not DEBUG
 
 FORCE_SCRIPT_NAME = os.getenv('FORCE_SCRIPT_NAME', '').strip() or None
 
+SESSION_COOKIE_NAME = 'anime_sessionid'
+CSRF_COOKIE_NAME = 'anime_csrftoken'
+if FORCE_SCRIPT_NAME:
+    SESSION_COOKIE_PATH = FORCE_SCRIPT_NAME.rstrip('/') + '/'
+    CSRF_COOKIE_PATH = FORCE_SCRIPT_NAME.rstrip('/') + '/'
+else:
+    SESSION_COOKIE_PATH = '/'
+    CSRF_COOKIE_PATH = '/'
+
 INSTALLED_APPS = [
     'django.contrib.admin',
     'django.contrib.auth',
