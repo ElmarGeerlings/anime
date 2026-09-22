@@ -225,6 +225,7 @@ class Command(BaseCommand):
                 anime.status = status_for_mal_id(mal_id)
                 anime.curator_tier = tier
                 anime.curator_rank = idx
+                anime.jikan_synced = True
                 if not anime.slug:
                     anime.slug = unique_slug(jikan_data['title'], mal_id)
                 anime.save()

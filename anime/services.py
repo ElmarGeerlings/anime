@@ -196,6 +196,33 @@ def sync_anime_from_jikan(anime):
     return anime
 
 
+def try_sync_anime_from_jikan(anime):
+    try:
+        sync_anime_from_jikan(anime)
+    except (HTTPError, URLError):
+        anime.jikan_synced = False
+        return False
+    anime.jikan_synced = True
+    return True
+
+
+def sync_pending_jikan_animes():
+    pending = Anime.objects.filter(jikan_synced=False).order_by('pk')
+    total = pending.count()
+    synced = 0
+    failed = 0
+    update_fields = ['title', 'poster_url', 'mal_url', 'status', 'jikan_synced']
+    for anime in pending:
+        if try_sync_anime_from_jikan(anime):
+            anime.save(update_fields=update_fields)
+            synced += 1
+        else:
+            anime.save(update_fields=['jikan_synced'])
+            failed += 1
+        time.sleep(JIKAN_REQUEST_DELAY)
+    return {'synced': synced, 'failed': failed, 'total': total}
+
+
 def apply_curator_rank_insert(anime, change):
     new_tier = anime.curator_tier
     new_rank = anime.curator_rank

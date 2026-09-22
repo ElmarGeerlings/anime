@@ -44,6 +44,7 @@ class Anime(models.Model):
     )
     curator_rank = models.PositiveIntegerField(default=0)
     review = models.TextField(blank=True)
+    jikan_synced = models.BooleanField(default=False)
     added_at = models.DateTimeField(auto_now_add=True)
 
     class Meta:
