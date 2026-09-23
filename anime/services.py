@@ -389,8 +389,9 @@ def get_personal_maker_by_tier(device_id):
 
 def get_unrated_pool(device_id):
     rated_ids = AnimeRating.objects.filter(device__device_id=device_id).values_list('anime_id', flat=True)
-    pool = Anime.objects.filter(curator_tier__isnull=False).exclude(pk__in=rated_ids).order_by('title')
-    return attach_ongoing_flags(list(pool))
+    pool = list(Anime.objects.filter(curator_tier__isnull=False).exclude(pk__in=rated_ids))
+    pool.sort(key=lambda anime: anime.get_public_label().casefold())
+    return attach_ongoing_flags(pool)
 
 
 def save_personal_tierlist(device_id, tiers_map):

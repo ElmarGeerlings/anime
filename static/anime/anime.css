@@ -541,7 +541,7 @@ a {
 
     .anime-page--text .tier-items,
     .anime-page--text .tier-maker-pool {
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(4, 1fr);
         gap: 2px;
         align-items: stretch;
         align-content: start;
@@ -556,6 +556,12 @@ a {
 
     .anime-page--text .tier-item-label {
         flex: 1;
-        min-height: calc(2 * 0.65rem * 1.15 + 8px);
+        padding: 3px 4px;
+        font-size: 0.575rem;
+        min-height: calc(2 * 0.575rem * 1.1 + 6px);
+    }
+
+    .anime-page--text .tier-item-label-text {
+        line-height: 1.1;
     }
 }
