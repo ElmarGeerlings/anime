@@ -1,7 +1,3 @@
 <div class="tier-item tier-item--draggable{% if anime.is_ongoing %} tier-item--ongoing{% endif %}" data-anime-id="{{ anime.pk }}" title="{{ anime.title }}">
-    {% if anime.poster_url %}
-        <img src="{{ anime.poster_url }}" alt="{{ anime.title }}">
-    {% else %}
-        <span class="tier-item-fallback">{{ anime.title }}</span>
-    {% endif %}
+    {% include "anime/partials/tier_item_content.html" %}
 </div>

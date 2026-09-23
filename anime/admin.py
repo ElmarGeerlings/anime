@@ -8,7 +8,7 @@ from anime.services import apply_curator_rank_insert, try_sync_anime_from_jikan
 class AnimeAdmin(admin.ModelAdmin):
     list_display = ['title', 'curator_tier', 'curator_rank', 'status', 'mal_id', 'jikan_synced', 'added_at']
     list_filter = ['curator_tier', 'status', 'jikan_synced']
-    search_fields = ['title', 'slug', 'mal_id']
+    search_fields = ['title', 'display_name', 'slug', 'mal_id']
     ordering = ['curator_tier', 'curator_rank', 'title']
     readonly_fields = ['jikan_synced']
 

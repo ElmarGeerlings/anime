@@ -1,4 +1,5 @@
 {% extends "anime/base_anime.html" %}
+{% load static %}
 
 {% block title %}{{ anime.title }} — Anime Tier List{% endblock %}
 
@@ -10,7 +11,27 @@
         {% endif %}
     </div>
     <div class="anime-detail-info">
-        <h2>{{ anime.title }}</h2>
+        {% if can_edit_display_name %}
+            <h2
+                class="anime-detail-heading anime-detail-heading--editable"
+                id="anime-detail-heading"
+                data-anime-id="{{ anime.pk }}"
+                data-title="{{ anime.title }}"
+                data-display-name="{{ anime.display_name }}"
+                data-save-url="{% url 'save_anime_display_name' %}"
+            >
+        {% else %}
+            <h2>
+        {% endif %}
+            {% if anime.display_name and anime.display_name != anime.title %}
+                {{ anime.display_name }} ({{ anime.title }})
+            {% else %}
+                {{ anime.title }}
+            {% endif %}
+        </h2>
+        {% if can_edit_display_name %}
+            <input type="hidden" id="anime-display-name-csrf" value="{{ csrf_token }}">
+        {% endif %}
         <p class="anime-detail-meta">
             <span class="anime-badge anime-badge--{{ anime.status }}">{{ anime.get_status_display }}</span>
             {% if anime.curator_tier %}
@@ -50,4 +71,10 @@
         </section>
     </div>
 </article>
+{% endblock %}
+
+{% block scripts %}
+{% if can_edit_display_name %}
+<script src="{% static 'anime/anime-detail-display.js' %}"></script>
+{% endif %}
 {% endblock %}

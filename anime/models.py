@@ -32,6 +32,7 @@ class Anime(models.Model):
 
     mal_id = models.IntegerField(unique=True)
     title = models.CharField(max_length=255)
+    display_name = models.CharField(max_length=80, blank=True)
     slug = models.SlugField(unique=True)
     poster_url = models.URLField(blank=True)
     mal_url = models.URLField(blank=True)

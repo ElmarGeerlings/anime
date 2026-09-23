@@ -8,7 +8,17 @@
     <link rel="stylesheet" href="{% static 'anime/anime.css' %}">
 </head>
 <body>
-    <div class="anime-page">
+    <div class="anime-page" id="anime-page">
+        <script>
+        (function () {
+            var page = document.getElementById('anime-page');
+            var stored = localStorage.getItem('anime_tier_mode');
+            var useText = stored === 'text' || (stored !== 'posters' && window.matchMedia('(max-width: 600px)').matches);
+            if (useText) {
+                page.classList.add('anime-page--text');
+            }
+        })();
+        </script>
         <header class="anime-header">
             <h1 class="anime-site-title"><a href="{% url 'tier_list' %}">Anime Tier List</a></h1>
         </header>

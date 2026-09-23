@@ -7,11 +7,7 @@
             <div class="tier-items">
                 {% for anime in animes %}
                     <a href="{% url 'anime_detail' anime.slug %}" class="tier-item{% if anime.is_ongoing %} tier-item--ongoing{% endif %}" title="{{ anime.title }}">
-                        {% if anime.poster_url %}
-                            <img src="{{ anime.poster_url }}" alt="{{ anime.title }}">
-                        {% else %}
-                            <span class="tier-item-fallback">{{ anime.title }}</span>
-                        {% endif %}
+                        {% include "anime/partials/tier_item_content.html" %}
                     </a>
                 {% endfor %}
             </div>

@@ -1,6 +1,6 @@
 import json
 
-from django.http import JsonResponse
+from django.http import HttpResponseForbidden, JsonResponse
 from django.shortcuts import get_object_or_404, redirect, render
 from django.views.decorators.http import require_POST
 
@@ -39,6 +39,7 @@ def anime_detail(request, slug):
         'rating_tiers': RATING_TIER_CHOICES,
         'user_rating': get_user_rating(device_id, anime),
         'community_stats': get_anime_community_stats(anime),
+        'can_edit_display_name': request.user.is_staff,
     }
     return render(request, 'anime/detail.html', ctx)
 
@@ -53,6 +54,16 @@ def rate(request):
     response = redirect('anime_detail', slug=anime.slug)
     response.set_cookie('anime_device_id', device_id, max_age=365 * 24 * 60 * 60, samesite='Lax')
     return response
+
+
+@require_POST
+def save_anime_display_name(request):
+    if not request.user.is_staff:
+        return HttpResponseForbidden()
+    anime = get_object_or_404(Anime, pk=request.POST['anime_id'])
+    anime.display_name = request.POST.get('display_name', '').strip()
+    anime.save(update_fields=['display_name'])
+    return JsonResponse({'display_name': anime.display_name})
 
 
 @require_POST

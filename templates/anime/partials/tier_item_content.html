@@ -1,0 +1,8 @@
+<span class="tier-item-label">
+    <span class="tier-item-label-text">{% if anime.display_name %}{{ anime.display_name }}{% else %}{{ anime.title }}{% endif %}</span>
+</span>
+{% if anime.poster_url %}
+    <img src="{{ anime.poster_url }}" alt="{{ anime.title }}">
+{% else %}
+    <span class="tier-item-fallback">{% if anime.display_name %}{{ anime.display_name }}{% else %}{{ anime.title }}{% endif %}</span>
+{% endif %}
