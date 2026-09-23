@@ -59,6 +59,11 @@ class Anime(models.Model):
             return self.mal_url
         return f'https://myanimelist.net/anime/{self.mal_id}'
 
+    def get_tooltip_text(self):
+        if self.display_name and self.display_name != self.title:
+            return f'{self.display_name} ({self.title})'
+        return self.title
+
 
 class DeviceProfile(models.Model):
     device_id = models.CharField(max_length=36, unique=True)

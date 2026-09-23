@@ -75,9 +75,8 @@ document.addEventListener('DOMContentLoaded', () => {
     document.querySelectorAll('.tier-maker-drop').forEach(drop => {
         Sortable.create(drop, {
             group: 'tierlist',
-            animation: 150,
-            delay: 120,
-            delayOnTouchOnly: true,
+            animation: 50,
+            delay: 50,
             touchStartThreshold: 3,
             draggable: '.tier-item--draggable',
             ghostClass: 'tier-item--ghost',

@@ -6,7 +6,7 @@
             </div>
             <div class="tier-items">
                 {% for anime in animes %}
-                    <a href="{% url 'anime_detail' anime.slug %}" class="tier-item{% if anime.is_ongoing %} tier-item--ongoing{% endif %}" title="{{ anime.title }}">
+                    <a href="{% url 'anime_detail' anime.slug %}" class="tier-item{% if anime.is_ongoing %} tier-item--ongoing{% endif %}" title="{{ anime.get_tooltip_text }}">
                         {% include "anime/partials/tier_item_content.html" %}
                     </a>
                 {% endfor %}

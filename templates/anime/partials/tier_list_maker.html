@@ -11,7 +11,9 @@
                 <div class="tier-label">{{ tier }}</div>
                 <div class="tier-items tier-maker-drop" data-tier="{{ tier }}">
                     {% for anime in animes %}
-                        {% include "anime/partials/tier_maker_card.html" with anime=anime %}
+                        <a href="{% url 'anime_detail' anime.slug %}" class="tier-item tier-item--draggable{% if anime.is_ongoing %} tier-item--ongoing{% endif %}" data-anime-id="{{ anime.pk }}" title="{{ anime.get_tooltip_text }}">
+                            {% include "anime/partials/tier_item_content.html" %}
+                        </a>
                     {% endfor %}
                 </div>
             </div>
@@ -21,7 +23,9 @@
     <h3 class="tier-maker-pool-heading">Unrated</h3>
     <div class="tier-maker-pool tier-maker-drop" data-tier="">
         {% for anime in unrated_pool %}
-            {% include "anime/partials/tier_maker_card.html" with anime=anime %}
+            <a href="{% url 'anime_detail' anime.slug %}" class="tier-item tier-item--draggable{% if anime.is_ongoing %} tier-item--ongoing{% endif %}" data-anime-id="{{ anime.pk }}" title="{{ anime.get_tooltip_text }}">
+                {% include "anime/partials/tier_item_content.html" %}
+            </a>
         {% endfor %}
     </div>
 </div>

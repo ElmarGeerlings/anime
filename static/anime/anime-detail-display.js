@@ -50,7 +50,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const input = document.createElement('input');
         input.type = 'text';
         input.className = 'anime-detail-heading-input';
-        input.value = heading.dataset.displayName || '';
+        input.value = heading.dataset.displayName || title;
         input.maxLength = 80;
         heading.replaceWith(input);
         input.focus();
